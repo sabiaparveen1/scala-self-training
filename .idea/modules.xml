@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelloScalaTest/HelloScalaTest.iml" filepath="$PROJECT_DIR$/.idea/modules/HelloScalaTest/HelloScalaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelloScalaTest/HelloScalaTest.HelloScalaTest-build.iml" filepath="$PROJECT_DIR$/.idea/modules/HelloScalaTest/HelloScalaTest.HelloScalaTest-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelloScalaTest/HelloScalaTest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/HelloScalaTest/HelloScalaTest.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelloScalaTest/HelloScalaTest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/HelloScalaTest/HelloScalaTest.test.iml" />
+    </modules>
+  </component>
+</project>

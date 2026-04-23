@@ -1,0 +1,12 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes ...
+[error] -- [E008] Not Found Error: C:\Users\SabiaParveen\Documents\HelloScalaTest\src\main\scala\ControlStructures.scala:93:19 
+[error] 93 |                  x+=1
+[error]    |                  ^^^
+[error]    |   value += is not a member of Int - did you mean x.!=? or perhaps x.<=?
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 23-Apr-2026, 2:42:29 pm
+[debug] > Exec(idea-shell, None, None)

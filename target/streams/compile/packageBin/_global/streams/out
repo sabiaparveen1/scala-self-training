@@ -1,0 +1,27 @@
+[debug] Packaging C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\helloscalatest_3-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	ControlStructures$package$.class
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\ControlStructures$package$.class
+[debug] 	ControlStructures$package.class
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\ControlStructures$package.class
+[debug] 	ControlStructures$package.tasty
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\ControlStructures$package.tasty
+[debug] 	ControlStructures.class
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\ControlStructures.class
+[debug] 	ControlStructures.tasty
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\ControlStructures.tasty
+[debug] 	HelloInteractive$package$.class
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\HelloInteractive$package$.class
+[debug] 	HelloInteractive$package.class
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\HelloInteractive$package.class
+[debug] 	HelloInteractive$package.tasty
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\HelloInteractive$package.tasty
+[debug] 	math
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\math
+[debug] 	math\MathUtils$.class
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\math\MathUtils$.class
+[debug] 	math\MathUtils.class
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\math\MathUtils.class
+[debug] 	math\MathUtils.tasty
+[debug] 	  C:\Users\SabiaParveen\Documents\HelloScalaTest\target\scala-3.8.3\classes\math\MathUtils.tasty
+[debug] Done packaging.

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="INL-3P495C4" name="math.MathUtilsTests" tests="4" errors="0" failures="1" skipped="1" time="0.021" timestamp="2026-04-21T17:11:17">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.cpu.isalist" value="amd64"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="sun.arch.data.model" value="64"/><property name="sbt.supershell" value="false"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="sun.boot.library.path" value="C:\Program Files\jdk-17.0.18+8\bin"/><property name="sun.java.command" value="C:\Users\SabiaParveen\AppData\Roaming\JetBrains\IntelliJIdea2025.3\plugins\Scala\launcher\sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;C:\Users\SabiaParveen\AppData\Local\Temp\idea1.sbt&quot;&quot;&quot;) idea-shell"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="cp437"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2026-01-20"/><property name="java.home" value="C:\Program Files\jdk-17.0.18+8"/><property name="file.separator" value="\"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="cp437"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.18+8"/><property name="user.name" value="SabiaParveen"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="C:\Users\SABIAP~1\AppData\Local\Temp\jna--843617715\jna9240899174796614864.dll"/><property name="java.vendor.version" value="Temurin-17.0.18+8"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="C:\Users\SABIAP~1\AppData\Local\Temp\"/><property name="java.version" value="17.0.18"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="sun.os.patch.level" value=""/><property name="native.encoding" value="Cp1252"/><property name="java.library.path" value="C:\Program Files\jdk-17.0.18+8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.9.13-bin\apache-maven-3.9.13\bin;C:\Program Files\jdk-17.0.18+8\bin;C:\Program Files\Git\cmd;C:\Program Files\scala-cli-x86_64-pc-win32\;C:\Users\SabiaParveen\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.18.8-hotspot\bin;C:\Users\SabiaParveen\AppData\Local\Microsoft\WindowsApps;C:\Users\SabiaParveen\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\SabiaParveen\AppData\Local\Programs\Microsoft VS Code\bin;."/><property name="java.vendor" value="Eclipse Adoptium"/><property name="java.specification.maintenance.version" value="1"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="C:\Users\SabiaParveen\AppData\Roaming\JetBrains\IntelliJIdea2025.3\plugins\Scala\launcher\sbt-launch.jar"/><property name="java.vm.vendor" value="Eclipse Adoptium"/><property name="separate.prod.test.sources.enabled" value="true"/><property name="user.variant" value=""/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Asia/Calcutta"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Windows 11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="IN"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\SabiaParveen"/><property name="user.language" value="en"/><property name="sbt.ipcsocket.tmpdir" value="C:\Users\SABIAP~1\AppData\Local\Temp\.sbt5aa83c32\ipcsocket"/><property name="swoval.tmpdir" value="C:\Users\SABIAP~1\AppData\Local\Temp\.sbt5aa83c32\swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=";"/><property name="os.version" value="10.0"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sbt.log.noformat" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="user.dir" value="C:\Users\SabiaParveen\Documents\HelloScalaTest"/><property name="os.arch" value="amd64"/><property name="grouping.with.qualified.names.enabled" value="true"/><property name="idea.managed" value="true"/><property name="jdk.console" value="java.base"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.18+8"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="math.MathUtilsTests" name="'double' should handle 0" time="0.007">
+                      
+                    </testcase><testcase classname="math.MathUtilsTests" name="'double' should handle 1" time="0.0">
+                      
+                    </testcase><testcase classname="math.MathUtilsTests" name="'double should handle 4'" time="0.014">
+                      <failure message="8 did not equal 3" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: 8 did not equal 3
+	at org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:476)
+	at org.scalatest.Assertions.newAssertionFailedException$(Assertions.scala:421)
+	at org.scalatest.Assertions$.newAssertionFailedException(Assertions.scala:1385)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:1460)
+	at math.MathUtilsTests.testFun$proxy3$1(MathUtilsTests.scala:21)
+	at math.MathUtilsTests.$init$$$anonfun$3(MathUtilsTests.scala:19)
+	at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:21)
+	at org.scalatest.funsuite.AnyFunSuiteLike$$anon$1.apply(AnyFunSuiteLike.scala:206)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:138)
+	at org.scalatest.funsuite.AnyFunSuite.withFixture(AnyFunSuite.scala:1563)
+	at org.scalatest.funsuite.AnyFunSuiteLike.invokeWithFixture$1(AnyFunSuiteLike.scala:212)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTest$$anonfun$1(AnyFunSuiteLike.scala:216)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTest(AnyFunSuiteLike.scala:216)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTest$(AnyFunSuiteLike.scala:47)
+	at org.scalatest.funsuite.AnyFunSuite.runTest(AnyFunSuite.scala:1563)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTests$$anonfun$1(AnyFunSuiteLike.scala:249)
+	at org.scalatest.SuperEngine.traverseSubNodes$1$$anonfun$1(Engine.scala:413)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:327)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:429)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTests(AnyFunSuiteLike.scala:249)
+	at org.scalatest.funsuite.AnyFunSuiteLike.runTests$(AnyFunSuiteLike.scala:47)
+	at org.scalatest.funsuite.AnyFunSuite.runTests(AnyFunSuite.scala:1563)
+	at org.scalatest.Suite.run(Suite.scala:1114)
+	at org.scalatest.Suite.run$(Suite.scala:564)
+	at org.scalatest.funsuite.AnyFunSuite.org$scalatest$funsuite$AnyFunSuiteLike$$super$run(AnyFunSuite.scala:1563)
+	at org.scalatest.funsuite.AnyFunSuiteLike.run$$anonfun$1(AnyFunSuiteLike.scala:253)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:535)
+	at org.scalatest.funsuite.AnyFunSuiteLike.run(AnyFunSuiteLike.scala:253)
+	at org.scalatest.funsuite.AnyFunSuiteLike.run$(AnyFunSuiteLike.scala:47)
+	at org.scalatest.funsuite.AnyFunSuite.run(AnyFunSuite.scala:1563)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:321)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:517)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:153)
+	at sbt.TestRunner.run(TestFramework.scala:168)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:336)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:296)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:336)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:336)
+	at sbt.TestFunction.apply(TestFramework.scala:348)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:436)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:47)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+	at sbt.Execute.work(Execute.scala:292)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+</failure>
+                    </testcase><testcase classname="math.MathUtilsTests" name="test with Int.MaxValue" time="0.0">
+                      <skipped/>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

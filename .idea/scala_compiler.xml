@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="HelloScalaTest,HelloScalaTest.main,HelloScalaTest.test,helloscalatest_6978,helloscalatest_6978.main,helloscalatest_6978.test" />
+  </component>
+</project>
